@@ -1,0 +1,18 @@
+<h1 align = "center">
+501 Must See Movies
+</h1>
+
+<h2 align="center">
+Work In Progress
+</h2>
+
+
+<p align="center">
+501 Must See Movies is a publication for movie lovers that lists movies in chronological</br>
+over ten different genres.</br>
+For those who don't want to watch them in order, or those who don't know what to watch</br>
+this program aims to randomise that choice for you.</br>
+If you're unfamiliar with the book, you can choose to view a list of the genres and/or movies</br>
+within those genres.
+</p>
+
