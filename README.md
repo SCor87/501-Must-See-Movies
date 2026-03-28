@@ -13,6 +13,6 @@ For those who don't want to watch them in order, or those who don't know</br>wha
 If you're unfamiliar with the book, you can choose to view a list of the genres</br>and/or movies within those genres.
 </p>
 
-<div style="text-align: center;"><a href="URL">Your Link Text</a></div>
+<div style="text-align: center;"><a href="URL">To view the book, visit [Amazon](https://www.amazon.co.uk/501-Must-See-Movies-Bounty/dp/075372698X)</a></div>
 To view the book, visit [Amazon](https://www.amazon.co.uk/501-Must-See-Movies-Bounty/dp/075372698X).
 </p>
