@@ -68,14 +68,15 @@ def print_dictionary():
             print("Genres:")
             for item in genres.values():
                 print("{}".format(item))
+        else:
 
-            movie_input = input("\nWould you like to see a list of movies?: ")
+            movie_input = input("\nWhat about a list of movies?: ")
             if movie_input == 'y' or movie_input == 'Y':
                 user_choice = input('What genre of movie would you like to see?: ')
                 if user_choice == 'Action' or user_choice == 'Adventure' or user_choice == 'Epic':
                     print("Action/Adventure and Epic movies:")
-                    for item in movies.values():
-                        print("{}".format(item))
+                    for item in movies.items():
+                        print(item)
                 elif user_choice == 'Comedy':
                     print("Comedy movies:")
                     for item in movies_2.values():
@@ -113,7 +114,8 @@ def print_dictionary():
                     for item in movies_10.values():
                         print("{}".format(item))
 
-
+    elif choice == 'No' or choice == 'N':
+        print('Okay! We\'ll choose a movie for you to watch instead.')
 
     return genres, movies, movies_2, movies_3, movies_4, movies_5, movies_6, movies_7, movies_8, movies_9, movies_10
 
