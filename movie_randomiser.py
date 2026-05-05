@@ -62,20 +62,18 @@ def print_dictionary():
 
     choice = input('Would you like to see a list of genres or movies?: ')
     if choice == 'Yes' or choice == 'Y':
-
         user_input = input("Would you like to see a list of genres?: ")
         if user_input == 'y' or user_input == 'Y':
             print("Genres:")
             for item in genres.values():
                 print("{}".format(item))
-        else:
-
+        elif user_input == 'n' or user_input == 'N':
             movie_input = input("\nWhat about a list of movies?: ")
             if movie_input == 'y' or movie_input == 'Y':
                 user_choice = input('What genre of movie would you like to see?: ')
                 if user_choice == 'Action' or user_choice == 'Adventure' or user_choice == 'Epic':
                     print("Action/Adventure and Epic movies:")
-                    for item in movies.items():
+                    for item in movies.values():
                         print(item)
                 elif user_choice == 'Comedy':
                     print("Comedy movies:")
@@ -131,43 +129,43 @@ def movie(genre_choice):
 
     if genre_choice == 'Action/Adventure & Epic':
         movie = random.choice(list(movies.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Comedy':
         movie = random.choice(list(movies_2.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Drama':
         movie = random.choice(list(movies_3.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Horror':
         movie = random.choice(list(movies_4.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Musical':
         movie = random.choice(list(movies_5.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Romance':
         movie = random.choice(list(movies_6.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Science Fiction & Fantasy':
         movie = random.choice(list(movies_7.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Mystery & Thriller':
         movie = random.choice(list(movies_8.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'War':
         movie = random.choice(list(movies_9.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
     elif genre_choice == 'Western':
         movie = random.choice(list(movies_10.values()))
-        print(f'\nThe {genre_choice} movie you should watch is shown below.')
+        print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
 
 
