@@ -125,7 +125,7 @@ def genre(genres):
 
     return genre_choice
 
-def movie(genre_choice):
+def movie_choice(genre_choice):
 
     if genre_choice == 'Action/Adventure & Epic':
         movie = random.choice(list(movies.values()))
@@ -168,14 +168,29 @@ def movie(genre_choice):
         print(f'\nThe {genre_choice.lower()} movie you should watch is shown below.')
         print('Movie: ', movie)
 
+    return movie
+
+
+def seen_movies(movie):
+    seen_movies = {}
+    choice = input('\nHave you seen this movie? (\'Yes or No\'): ')
+    if choice == 'Yes' or choice == 'Y':
+        seen_movies[movie] = 1
+    else:
+        print('Enjoy the film!')
+
+    for item in seen_movies.keys():
+        print("{}".format(item))
+    # print(seen_movies.keys())
+
 
 def main(genre_choice):
 
-    movie(genre_choice)
-
+    movie = movie_choice(genre_choice)
+    return movie
 
 if __name__ == '__main__':
     genre_choice, movies, movies_2, movies_3, movies_4, movies_5, movies_6, movies_7, movies_8, movies_9, movies_10 = print_dictionary()
-    genres = genre(genre_choice)
-
-    main(genres)
+    genre_choice = genre(genre_choice)
+    movie = main(genre_choice)
+    seen_movies(movie)
