@@ -19,7 +19,12 @@ def print_dictionary():
     movies = {1: 'Napoléon', 2: 'Cleopatra', 3: 'The Adventures Of Robin Hood',
         4: 'Gone With The Wind', 5: 'The Sea Hawk', 6: 'The Treasure of the Sierra Madre',
         7: 'The Wages of Fear (Le Salaire de la peur)', 8: 'The Seven Samurai (Shichinin no samurai)',
-        9: 'The Ten Commandments', 10: 'War and Peace'}
+        9: 'The Ten Commandments', 10: 'War and Peace', 11: 'The Vikings', 12: 'North by Northwest',
+        13: 'Ben-Hur', 14: 'Spartacus', 15: 'Lawrence of Arabia', 16: 'Zulu',
+        17: 'Dr Zhivago', 18: 'The Charge of the Light Brigade', 19: 'The Lion in Winter',
+        20: 'Waterloo', 21: 'Aguirre: The Wrath of God (Aguirre, der Zorn Gottes',
+        22: 'The Poseidon Adventure', 23: 'Enter the Dragon', 24: 'Papillon',
+        25: 'The Towering Inferno'}
     movies_2 = {1: 'Safety Last', 2: 'The General', 3: 'Duck Soup', 4: 'It\'s A Gift',
         5: 'Modern Times', 6: 'Nothing Sacred', 7: 'Way Out West',
         8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel'}
@@ -111,6 +116,8 @@ def print_dictionary():
                     print("Western movies:")
                     for item in movies_10.values():
                         print("{}".format(item))
+            elif user_input == 'No' or user_input == 'N':
+                print('Okay! We\'ll choose a movie for you to watch instead.')
 
     elif choice == 'No' or choice == 'N':
         print('Okay! We\'ll choose a movie for you to watch instead.')
