@@ -25,7 +25,8 @@ def print_dictionary():
         20: 'Waterloo', 21: 'Aguirre: The Wrath of God (Aguirre, der Zorn Gottes',
         22: 'The Poseidon Adventure', 23: 'Enter the Dragon', 24: 'Papillon',
         25: 'The Towering Inferno', 26: 'Raiders of the Lost Ark', 27: 'Fitzcarraldo',
-        28: 'Gandhi', 29: 'The Right Stuff', 30: 'A Passage To India', 31: 'Ran'}
+        28: 'Gandhi', 29: 'The Right Stuff', 30: 'A Passage To India', 31: 'Ran',
+        32: 'The Mission', 33: 'Top Gun', 34: 'The Last Emperor', 35: 'Die Hard'}
     movies_2 = {1: 'Safety Last', 2: 'The General', 3: 'Duck Soup', 4: 'It\'s A Gift',
         5: 'Modern Times', 6: 'Nothing Sacred', 7: 'Way Out West',
         8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel'}
