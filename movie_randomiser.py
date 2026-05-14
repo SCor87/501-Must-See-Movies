@@ -24,7 +24,8 @@ def print_dictionary():
         17: 'Dr Zhivago', 18: 'The Charge of the Light Brigade', 19: 'The Lion in Winter',
         20: 'Waterloo', 21: 'Aguirre: The Wrath of God (Aguirre, der Zorn Gottes',
         22: 'The Poseidon Adventure', 23: 'Enter the Dragon', 24: 'Papillon',
-        25: 'The Towering Inferno'}
+        25: 'The Towering Inferno', 26: 'Raiders of the Lost Ark', 27: 'Fitzcarraldo',
+        28: 'Gandhi', 29: 'The Right Stuff', 30: 'A Passage To India', 31: 'Ran'}
     movies_2 = {1: 'Safety Last', 2: 'The General', 3: 'Duck Soup', 4: 'It\'s A Gift',
         5: 'Modern Times', 6: 'Nothing Sacred', 7: 'Way Out West',
         8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel'}
@@ -72,6 +73,9 @@ def print_dictionary():
             print("Genres:")
             for item in genres.values():
                 print("{}".format(item))
+            # Come back to below. If 'n' to genre, give user a choice for movies
+            # genre_movie = input('\nWould you like to see a list of movies too?: ')
+            # if genre_movie == 'y' or genre_movie == 'Y':
         elif user_input == 'n' or user_input == 'N':
             movie_input = input("\nWhat about a list of movies?: ")
             if movie_input == 'y' or movie_input == 'Y':
