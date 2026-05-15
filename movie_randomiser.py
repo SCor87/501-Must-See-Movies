@@ -26,7 +26,8 @@ def print_dictionary():
         22: 'The Poseidon Adventure', 23: 'Enter the Dragon', 24: 'Papillon',
         25: 'The Towering Inferno', 26: 'Raiders of the Lost Ark', 27: 'Fitzcarraldo',
         28: 'Gandhi', 29: 'The Right Stuff', 30: 'A Passage To India', 31: 'Ran',
-        32: 'The Mission', 33: 'Top Gun', 34: 'The Last Emperor', 35: 'Die Hard'}
+        32: 'The Mission', 33: 'Top Gun', 34: 'The Last Emperor', 35: 'Die Hard',
+        36: 'Speed', 37: 'True Lies'}
     movies_2 = {1: 'Safety Last', 2: 'The General', 3: 'Duck Soup', 4: 'It\'s A Gift',
         5: 'Modern Times', 6: 'Nothing Sacred', 7: 'Way Out West',
         8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel'}
@@ -184,6 +185,7 @@ def movie_choice(genre_choice):
 
 
 def seen_movies(movie):
+    # NEED TO SAVE THE 'YES SEEN' MOVIES TO THE DICTIONARY SO THEY PRINT OUT OF THE FOR LOOP ON LINE 196
     seen_movies = {}
     choice = input('\nHave you seen this movie? (\'Yes or No\'): ')
     if choice == 'Yes' or choice == 'Y':
