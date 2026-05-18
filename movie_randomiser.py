@@ -27,7 +27,13 @@ def print_dictionary():
         25: 'The Towering Inferno', 26: 'Raiders of the Lost Ark', 27: 'Fitzcarraldo',
         28: 'Gandhi', 29: 'The Right Stuff', 30: 'A Passage To India', 31: 'Ran',
         32: 'The Mission', 33: 'Top Gun', 34: 'The Last Emperor', 35: 'Die Hard',
-        36: 'Speed', 37: 'True Lies'}
+        36: 'Speed', 37: 'True Lies', 38: 'Braveheart', 39: 'The Mummy',
+        40: 'Crouching Tiger, Hidden Dragon (Wo Hu Cang Long)', 41: 'Gladiator',
+        42: 'The Lord of the Rings: The Fellowship of the Ring',
+        43: 'Master and Commander: The Far Side of the World',
+        44: 'Pirates of the Caribbean: The Curse of the Black Pearl',
+        45: 'Kill Bill: Vol. 1 & Vol. 2', 46: '300', 47: 'Iron Man',
+        48: 'Watchmen', 49: 'Skyfall', 50: 'The Avengers'}
     movies_2 = {1: 'Safety Last', 2: 'The General', 3: 'Duck Soup', 4: 'It\'s A Gift',
         5: 'Modern Times', 6: 'Nothing Sacred', 7: 'Way Out West',
         8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel'}
