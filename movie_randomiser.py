@@ -36,7 +36,15 @@ def print_dictionary():
         48: 'Watchmen', 49: 'Skyfall', 50: 'The Avengers'}
     movies_2 = {1: 'Safety Last', 2: 'The General', 3: 'Duck Soup', 4: 'It\'s A Gift',
         5: 'Modern Times', 6: 'Nothing Sacred', 7: 'Way Out West',
-        8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel'}
+        8: 'Bringing Up Baby', 9: 'His Girl Friday', 10: 'Sullivan\'s Travel',
+        11: 'To Be or Not to Be', 12: 'Kind Hearts and Coronets', 13: 'Born Yesterday',
+        14: 'Les Vaçances de M. Hulot (Mr. Hulot’s Holiday/Monsieur Hulot’s Holiday US/GB Title)',
+        15: 'Some Like It Hot', 16: 'Move Over, Darling', 17: 'The Pink Panther',
+        18: 'The Producers', 19: 'The Odd Couple', 20: 'Harold and Maude',
+        21: 'What\'s Up, Doc?',
+        22: 'Everything You Always Wanted to Know About Sex* *But were afraid to ask',
+        23: 'Blazing Saddles', 24: 'Monty Python and the Holy Grail', 25: 'Animal House',
+        26: 'Airplane!'}
     movies_3 = {1: 'Mr Smith Goes To Washington', 2: 'The Grapes of Wrath',
         3: 'Citizen Kane', 4: 'The Lost Weekend',
         5: 'The Best Years of Our Lives', 6: 'Great Expectations',
