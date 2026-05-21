@@ -44,7 +44,11 @@ def print_dictionary():
         21: 'What\'s Up, Doc?',
         22: 'Everything You Always Wanted to Know About Sex* *But were afraid to ask',
         23: 'Blazing Saddles', 24: 'Monty Python and the Holy Grail', 25: 'Animal House',
-        26: 'Airplane!'}
+        26: 'Airplane!', 27: 'Tootsie', 28: 'Trading Places', 29: 'All of Me',
+        30: 'This is Spinal Tap', 31: 'The Breakfast Club',
+        32: 'Ferris Bueller\'s Day Off', 33: 'A Fish Called Wanda',
+        34: 'The Naked Gun: From the Files of Police Squad', 35: 'Big',
+        36: 'Home Alone', 37: 'Groundhog Day'}
     movies_3 = {1: 'Mr Smith Goes To Washington', 2: 'The Grapes of Wrath',
         3: 'Citizen Kane', 4: 'The Lost Weekend',
         5: 'The Best Years of Our Lives', 6: 'Great Expectations',
