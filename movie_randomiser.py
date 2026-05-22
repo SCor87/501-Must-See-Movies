@@ -48,7 +48,15 @@ def print_dictionary():
         30: 'This is Spinal Tap', 31: 'The Breakfast Club',
         32: 'Ferris Bueller\'s Day Off', 33: 'A Fish Called Wanda',
         34: 'The Naked Gun: From the Files of Police Squad', 35: 'Big',
-        36: 'Home Alone', 37: 'Groundhog Day'}
+        36: 'Home Alone', 37: 'Groundhog Day', 38: 'Grosse Point Blank',
+        39: 'Austin Powers: International Man of Mystery', 40: 'The Big Lebowski',
+        41: 'There\'s Something About Mary',
+        42: 'Amélie (Amélie/Amélie of Montmartre US/GB Title)',
+        43: 'Lost in Translation', 44: 'Shaun of the Dead', 45: 'Anchorman',
+        46: 'A Cock and Bull Story aka Tristram Shandy: A Cock and Bull Story',
+        47: 'Little Miss Sunshine',
+        48: 'Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan',
+        49: 'Juno', 50: 'Knocked Up'}
     movies_3 = {1: 'Mr Smith Goes To Washington', 2: 'The Grapes of Wrath',
         3: 'Citizen Kane', 4: 'The Lost Weekend',
         5: 'The Best Years of Our Lives', 6: 'Great Expectations',
