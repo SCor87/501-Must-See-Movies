@@ -3,6 +3,8 @@
 # Date: 29/01/26
 import random
 
+## TESTING PUSH TO DEVELOPING
+
 def print_dictionary():
 
     genres = {1: 'Action/Adventure & Epic', 2: 'Comedy', 3: 'Drama',
@@ -215,12 +217,13 @@ def seen_movies(movie):
     seen_movies = {}
     choice = input('\nHave you seen this movie? (\'Yes or No\'): ')
     if choice == 'Yes' or choice == 'Y':
+        print('That\'s a good one! I\'ll add it to your list.')
         seen_movies[movie] = 1
     else:
         print('Enjoy the film!')
 
     for item in seen_movies.keys():
-        print("{}".format(item))
+        print("{}".format(item), 'has been added to the list of seen movies.')
     # print(seen_movies.keys())
 
 
