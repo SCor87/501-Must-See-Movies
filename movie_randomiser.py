@@ -96,6 +96,11 @@ def print_dictionary():
         9: 'The Gunfighter', 10: 'Winchester \'73'
         }
 
+    gen_mov = {'Action/Adventure & Epic': movies, 'Comedy': movies_2, 'Drama': movies_3,
+               'Horror': movies_4, 'Musical': movies_5, 'Romance': movies_6,
+               'Science Fiction & Fantasy': movies_7, 'Mystery & Thriller': movies_8,
+               'War': movies_9, 'Western': movies_10}
+
     choice = input('Would you like to see a list of genres or movies?: ')
     if choice == 'Yes' or choice == 'Y':
         user_input = input("Would you like to see a list of genres?: ")
@@ -110,45 +115,8 @@ def print_dictionary():
             movie_input = input("\nWhat about a list of movies?: ")
             if movie_input == 'y' or movie_input == 'Y':
                 user_choice = input('What genre of movie would you like to see?: ')
-                if user_choice == 'Action' or user_choice == 'Adventure' or user_choice == 'Epic':
-                    print("Action/Adventure and Epic movies:")
-                    for item in movies.values():
-                        print(item)
-                elif user_choice == 'Comedy':
-                    print("Comedy movies:")
-                    for item in movies_2.values():
-                        print("{}".format(item))
-                elif user_choice == 'Drama':
-                    print("Drama movies:")
-                    for item in movies_3.values():
-                        print("{}".format(item))
-                elif user_choice == 'Horror':
-                    print("Horror movies:")
-                    for item in movies_4.values():
-                        print("{}".format(item))
-                elif user_choice == 'Musical':
-                    print("Musical movies:")
-                    for item in movies_5.values():
-                        print("{}".format(item))
-                elif user_choice == 'Romance':
-                    print("Romance movies:")
-                    for item in movies_6.values():
-                        print("{}".format(item))
-                elif user_choice == 'Science Fiction & Fantasy' or user_choice == 'Sci-Fi' or user_choice == 'Fantasy':
-                    print("Science Fiction & Fantasy movies:")
-                    for item in movies_7.values():
-                        print("{}".format(item))
-                elif user_choice == 'Mystery & Thriller' or user_choice == 'Mystery' or user_choice == 'Thriller':
-                    print("Mystery & Thriller movies:")
-                    for item in movies_8.values():
-                        print("{}".format(item))
-                elif user_choice == 'War':
-                    print("War movies:")
-                    for item in movies_9.values():
-                        print("{}".format(item))
-                elif user_choice == 'Western':
-                    print("Western movies:")
-                    for item in movies_10.values():
+                if user_choice in gen_mov.keys():
+                    for item in gen_mov[user_choice].values():
                         print("{}".format(item))
             elif user_input == 'No' or user_input == 'N':
                 print('Okay! We\'ll choose a movie for you to watch instead.')
