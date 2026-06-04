@@ -63,7 +63,11 @@ def print_dictionary():
         3: 'Citizen Kane', 4: 'The Lost Weekend',
         5: 'The Best Years of Our Lives', 6: 'Great Expectations',
         7: 'It\'s a Wonderful Life', 8: 'The Bicycle Thief (Ladri di Biciclette)',
-        9: 'All About Eve', 10: 'Sunset Boulevard'}
+        9: 'All About Eve', 10: 'Sunset Boulevard', 11: 'Ace in the Hole',
+        12: 'On the Waterfront', 13: 'Rebel Without a Cause', 14: '12 Angry Men',
+        15: 'The Seventh Seal (Det sjunde inseglet)', 16: 'Sweet Smell of Success',
+        17: 'Vertigo',
+        18: 'À bout de souffle (Breathless/By a Tether (informal) USA/UK Title)'}
     movies_4 = {1: 'Nosferatu', 2: 'The Phantom of the Opera', 3: 'Freaks',
         4: 'King Kong', 5: 'Bride of Frankenstein', 6: 'Dead of Night',
         7: 'Les Diaboliques', 8: 'Dracula', 9: 'Psycho', 10: 'Peeping Tom'}
