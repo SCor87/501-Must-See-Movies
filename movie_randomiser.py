@@ -185,18 +185,23 @@ def movie_choice(genre_choice):
 
 
 def seen_movies(movie):
-    # NEED TO SAVE THE 'YES SEEN' MOVIES TO THE DICTIONARY SO THEY PRINT OUT OF THE FOR LOOP ON LINE 196
-    seen_movies = {}
+    #FOR PERSONAL USE, I SHOULD CREATE A LIST OF MOVIES THAT I HAVE SEEN
+    # BY CREATING A WAY TO MANUALLY ADD THE MOVIES THAT I HAVE SEEN
+    # NEED TO SAVE TO FILE SO DATA PERSISTS ACROSS PROGRAM EXECUTIONS
+    seen_movies = []
     choice = input('\nHave you seen this movie? (\'Yes or No\'): ')
     if choice == 'Yes' or choice == 'Y':
         print('That\'s a good one! I\'ll add it to your list.')
-        seen_movies[movie] = 1
+        if movie not in seen_movies:
+            seen_movies.append(movie)
+        else:
+            print('It looks like you\'ve already seen this one.\n'
+                  'It\'s already in your list.')
     else:
         print('Enjoy the film!')
 
-    for item in seen_movies.keys():
-        print("{}".format(item), 'has been added to the list of seen movies.')
-    # print(seen_movies.keys())
+    for item in seen_movies:
+        print(f'{item} has been added to the list of seen movies.')
 
 
 def main(genre_choice):
