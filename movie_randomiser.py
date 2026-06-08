@@ -67,7 +67,9 @@ def print_dictionary():
         12: 'On the Waterfront', 13: 'Rebel Without a Cause', 14: '12 Angry Men',
         15: 'The Seventh Seal (Det sjunde inseglet)', 16: 'Sweet Smell of Success',
         17: 'Vertigo',
-        18: 'À bout de souffle (Breathless/By a Tether (informal) USA/UK Title)'}
+        18: 'À bout de souffle (Breathless/By a Tether (informal) USA/UK Title)',
+        19: 'To Kill a Mockingbird', 20: '8 1/2', 21: 'Belle de jour',
+        22: 'The Graduate'}
     movies_4 = {1: 'Nosferatu', 2: 'The Phantom of the Opera', 3: 'Freaks',
         4: 'King Kong', 5: 'Bride of Frankenstein', 6: 'Dead of Night',
         7: 'Les Diaboliques', 8: 'Dracula', 9: 'Psycho', 10: 'Peeping Tom'}
