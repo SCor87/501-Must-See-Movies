@@ -9,7 +9,7 @@ Work In Progress
 
 <p align="center">
 501 Must See Movies is a publication for movie lovers that lists movies in chronological order over ten different genres.</br>
-For those who don't want to watch them in order, or those who don't know</br>what to watch this program aims to randomise that choice for you.</br>
+For those who don't want to watch them in order, or those who don't know</br>what to watch, this program aims to randomise that choice for you.</br>
 If you're unfamiliar with the book, you can choose to view a list of the genres</br>and/or movies within those genres.
 
 To view the book, visit [Amazon](https://www.amazon.co.uk/501-Must-See-Movies-Bounty/dp/075372698X).
